@@ -1,0 +1,15 @@
+.navigation-bar{
+    display: flex;
+    height:auto;
+    border:1px solid black;
+    width:100%;
+
+    button{
+        padding:10px
+    }
+}
+
+heading{
+    display: flex;
+    flex-direction: column;
+}

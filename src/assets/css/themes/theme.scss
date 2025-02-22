@@ -1,0 +1,38 @@
+:root{
+    --light-body-background-color:lightblue;
+    --dark-body-background-color:darkblue;
+    --light-header-color:lightgreen;
+    --dark-header-color:darkgreen;
+    --light-heading-text-color:black;
+    --dark-heading-text-color:yellow;
+}
+
+[color-theme="light"]{
+
+ background-color: var(--light-body-background-color);
+
+ nav.navigation-bar{
+    background-color: var(--light-header-color);
+ }
+
+ h1.app-heading{
+    color:var(--light-heading-text-color);
+ }
+
+}
+
+[color-theme="dark"]{
+
+    background-color: var(--dark-body-background-color);
+   
+    nav.navigation-bar{
+        background-color: var(--dark-header-color);
+     }
+
+     h1.app-heading{
+        color:var(--dark-heading-text-color);
+     }
+}
+   
+   
+

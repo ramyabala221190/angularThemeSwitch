@@ -1,0 +1,9 @@
+<header>
+<h1 class="app-heading">Theme Switcher Application</h1>
+<nav class="navigation-bar">
+    <ng-container *ngFor="let btn of themeButtons">
+        <button appThemeSwitcher [theme]="btn.themeType">{{btn.themeName}}</button>
+    </ng-container>
+</nav>
+
+</header>
