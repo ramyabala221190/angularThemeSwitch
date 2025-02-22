@@ -5,6 +5,8 @@
     --dark-header-color:darkgreen;
     --light-heading-text-color:black;
     --dark-heading-text-color:yellow;
+    --light-footer-bg-color:orange;
+    --dark-footer-bg-color:red;
 }
 
 [color-theme="light"]{
@@ -17,6 +19,10 @@
 
  h1.app-heading{
     color:var(--light-heading-text-color);
+ }
+
+ .footer{
+   background-color: var(--light-footer-bg-color);
  }
 
 }
@@ -32,6 +38,12 @@
      h1.app-heading{
         color:var(--dark-heading-text-color);
      }
+
+     .footer{
+        background-color: var(--dark-footer-bg-color);
+
+     }
+
 }
    
    

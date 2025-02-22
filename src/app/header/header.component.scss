@@ -1,15 +1,16 @@
 .navigation-bar{
     display: flex;
     height:auto;
-    border:1px solid black;
-    width:100%;
 
     button{
         padding:10px
     }
 }
 
-heading{
+header{
     display: flex;
     flex-direction: column;
+    width:100%;
+    border:1px solid black;
+    height:20%;
 }
